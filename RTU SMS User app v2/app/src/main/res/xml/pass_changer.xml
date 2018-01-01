@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference android:title="Enable Lock"
+        android:defaultValue="false"
+        android:summary="Lock is Enabled"
+        android:key="lock" />
+
+    <EditTextPreference android:title="Change Password"
+        android:key="pass_key"
+        android:inputType="textPassword"
+        android:summary="Enter new password"/>
+
+
+    <Preference
+        android:id="@+id/about_us"
+        android:key="about_us"
+        android:summary="Know more about Hemabh Solutions"
+        android:title="About us" />
+
+
+</PreferenceScreen>

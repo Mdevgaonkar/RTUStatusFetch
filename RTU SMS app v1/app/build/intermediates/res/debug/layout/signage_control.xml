@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            
+            
+            <TextView
+        android:id="@+id/signage_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Signage Mode"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/signage_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auto  " />
+
+        <Button
+            android:id="@+id/signage_manual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manual" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/signage_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="On Off Time"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/on_tiime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ON Time"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/on_time_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="e.g. 18:00 (hh:mm) "
+        android:inputType="textPersonName" >
+
+        
+    </EditText>
+
+    <TextView
+        android:id="@+id/off_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF Time"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/off_time_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="e.g. 18:00 (hh:mm) "
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/set_on_off_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Set" />
+
+    <TextView
+        android:id="@+id/signage_manual_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Manual Control"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/on_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signage ON " />
+
+        <Button
+            android:id="@+id/off_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signage OFF" />
+
+    </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+        
+</LinearLayout>
+<!-- From: file:/Users/mayursanjaydevgaonkar/Desktop/WSAS/SMS%20group/app/src/main/res/layout/signage_control.xml -->

@@ -1,0 +1,89 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hemabh.mayur.com.smsuser">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="SMS User"
+        android:theme="@style/Theme.MyBlue" >
+        <activity
+            android:name=".appOpener"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Sites">
+        </activity>
+
+        <activity
+            android:name=".lockscreen">
+        </activity>
+
+        <activity
+            android:name=".AddContact"
+            android:label="New Site">
+        </activity>
+
+        <activity
+            android:name=".editContact"
+            android:label="Edit Site" >
+        </activity>
+
+        <activity
+            android:name=".ViewContact"
+            android:label="Site Controls" >
+        </activity>
+
+        <activity
+            android:name=".command_AC"
+            android:label="AC Controls" >
+        </activity>
+
+        <activity
+            android:name=".command_Signage"
+            android:label="Signage Controls" >
+        </activity>
+
+        <activity android:name=".showDialogActivity"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity android:name=".SecurityDialog"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity android:name=".settings"
+            android:label="Settings">
+        </activity>
+
+
+
+        <receiver android:name=".IncomingSms">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+
+
+
+
+</manifest>

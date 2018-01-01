@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="commands">
+    	<item>Set Site ID</item>
+    	<item>Add Number to group</item>
+    	<item>Delete Number from group</item>
+    	<item>Get Number List</item>
+    	<item>Set Date and Time</item>
+    	<item>Factory Reset</item>
+        <item>Set Server IP</item>
+        <item>Set Data Port</item>
+        <item>Set Data Period</item>
+        <item>Set SIM APN</item>
+        <item>Set SIM User</item>
+        <item>Set SIM Password</item>
+        <item>Enable/Disable SIM 2</item>
+        <item>AC and Temp control</item>
+        <item>Energy Monitoring</item>
+        <item>Smoke detector reset</item>
+        <item>Hooter reset</item>
+        <item>Snapshot</item>
+        <item>Signage Control</item>
+        <item>Add Call center No. to group</item>
+        <item>Delete Call center No. from group</item>
+        <item>Get all Call center Numbers</item>
+        <item>SMS back Alert Number</item>
+        <item>Camera Port</item>
+    </string-array>
+    
+</resources>

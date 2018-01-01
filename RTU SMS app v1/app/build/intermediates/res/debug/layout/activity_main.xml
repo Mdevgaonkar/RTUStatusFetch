@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/Contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Contacts"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <ListView
+        android:id="@+id/contact_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="2dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textColor="#A09292"
+        android:text="You have no  contacts saved yet.\n\n\n Click on the &apos;Add Contact&apos; button in the upper right corner "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</LinearLayout>    <!-- From: file:/Users/mayursanjaydevgaonkar/Desktop/WSAS/SMS%20group/app/src/main/res/layout/activity_main.xml -->

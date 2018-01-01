@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMS Alert</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add">Add Contact</string>
+    
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="deleteContact">Are you sure to delete this contact</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+</resources>

@@ -1,0 +1,22 @@
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" 
+    tools:context="com.mayur.smsalert.ViewContact">
+        
+        
+        <item
+      android:id="@+id/Edit_Contact"
+      android:orderInCategory="100"
+      android:title="@string/edit"
+      android:icon="@android:drawable/ic_menu_edit"
+      app:showAsAction="always|withText"/>
+   <item
+      android:id="@+id/Delete_Contact"
+      android:orderInCategory="100"
+      android:title="@string/delete"
+      android:icon="@android:drawable/ic_menu_delete"
+      app:showAsAction="always|withText"/>
+    
+    
+    </menu>
+<!-- From: file:/Users/mayursanjaydevgaonkar/Desktop/WSAS/SMS%20group/app/src/main/res/menu/view_options.xml -->
